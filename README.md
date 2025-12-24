@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 原子习惯规划助手 | Atomic Habits Planner
 
-## Getting Started
+基于 James Clear 的《原子习惯》(Atomic Habits) 核心原理打造的习惯管理系统，帮助你科学地建立和追踪好习惯。
 
-First, run the development server:
+## ✨ 特性
+
+这个应用提供了**四个强大的习惯规划框架**，每个框架都基于《原子习惯》的核心理念：
+
+### 🎯 1. 四大定律习惯构建器（推荐）
+
+基于习惯养成的四大定律，系统性地设计你的习惯：
+
+- **第一定律：让它显而易见** - 设计环境和提示，让好习惯更容易被注意到
+- **第二定律：让它有吸引力** - 通过诱惑捆绑和社群影响，让习惯更有吸引力
+- **第三定律：让它容易执行** - 降低阻力，简化习惯到2分钟内可完成
+- **第四定律：让它令人满意** - 建立即时奖励和习惯追踪系统
+
+**适合场景**：想要系统性地建立新习惯，需要全面的实施策略
+
+### 🔗 2. 习惯堆叠规划器
+
+将新习惯与现有稳定习惯绑定，利用习惯堆叠公式：
+
+```
+在我[现有习惯]之后，我会在[地点][新习惯]
+```
+
+**适合场景**：
+- 生活繁忙，难以记住新习惯
+- 想要将多个习惯串联成习惯链
+- 需要明确的触发器来启动新习惯
+
+### 👤 3. 身份驱动习惯系统
+
+从"我想成为谁"出发，建立基于身份认同的习惯系统：
+
+- 定义理想身份（如：健康的人、作家、学习者）
+- 列出支持这个身份的行为
+- 选择要养成的具体习惯
+- 建立身份证据追踪系统
+
+**适合场景**：想要长期持久的改变，而不是短期目标
+
+**核心理念**：每个行为都是对身份的一次投票
+
+### ⚡ 4. 2分钟启动器
+
+基于2分钟法则，将习惯简化到极致：
+
+- 将理想习惯分解成多个版本
+- 从2分钟可完成的版本开始
+- 逐步升级到更高级的版本
+- 建立习惯的规模化路径
+
+**适合场景**：
+- 容易拖延，难以开始
+- 之前设定的目标太大而失败
+- 需要快速养成"出现的习惯"
+
+**核心理念**：掌握出现的艺术，比完美执行更重要
+
+## 🚀 开始使用
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 运行开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看应用。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 构建生产版本
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 💡 使用建议
 
-To learn more about Next.js, take a look at the following resources:
+### 如果你是新手
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **从四大定律构建器开始** - 它提供了最全面的习惯设计流程
+2. **选择一个小习惯** - 不要一开始就设定太大的目标
+3. **每次只关注一个习惯** - 等第一个习惯稳定后再添加新的
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 如果你已经有一些习惯
 
-## Deploy on Vercel
+1. **使用习惯堆叠** - 将新习惯与现有习惯绑定
+2. **创建习惯链** - 习惯A → 习惯B → 习惯C
+3. **逐步扩展** - 建立强大的日常习惯系统
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 如果你想要深层改变
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **使用身份驱动系统** - 从改变身份认同开始
+2. **关注"我是谁"** - 而不是"我想做什么"
+3. **积累小赢** - 每个小行为都是对新身份的投票
+
+### 如果你容易拖延
+
+1. **使用2分钟启动器** - 降低开始的门槛
+2. **先掌握出现** - 不要担心执行的质量
+3. **逐步提升** - 建立规模化路径
+
+## 📚 核心原则
+
+基于《原子习惯》的核心理念：
+
+1. **微小改变，复利效应** - 每天进步1%，一年后你将进步37倍
+2. **关注系统，而非目标** - 目标设定方向，系统带来进步
+3. **改变身份，而非行为** - 从"我想做"到"我是谁"的转变
+4. **环境塑造行为** - 设计环境比依靠意志力更有效
+
+## 🛠 技术栈
+
+- **Next.js 16** - React 框架
+- **React 19** - UI 库
+- **TypeScript** - 类型安全
+- **Tailwind CSS 4** - 样式框架
+
+## 📖 推荐阅读
+
+- 《原子习惯》(Atomic Habits) - James Clear
+- [Atomic Habits 官网](https://jamesclear.com/atomic-habits)
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+## 📝 许可
+
+MIT License
+
+---
+
+**"每天进步1%，一年后你将进步37倍"** - James Clear
